@@ -1,0 +1,11 @@
+@import url('./Pages/LayoutPage/LayoutPage.css');
+@import url('./Pages//Navbar/Navbar.css');
+@import url('./Pages/Content/ContentPage.css');
+@import url('./Pages/Sidebar/Sidebar.css');
+@import url('./Pages/ManinContent/Mcontainer.css');
+@import url('./Pages/Product/Product.css');
+
+body{
+    margin: 0;
+    padding: 0;
+}

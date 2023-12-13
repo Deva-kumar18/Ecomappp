@@ -1,0 +1,59 @@
+.nav-container{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(19, 52, 114);
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+position: relative;
+}
+.badge{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+.s-icon{
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+    position: absolute;
+    
+    margin-top: 2px;
+    right: 0;
+}
+.input-search{
+    padding: 8px;
+    border-radius: 8px;
+    border-inline: none;
+    outline: none;
+    border: none;
+    width: 34vw;
+
+}
+.shop-name{
+    color: white;
+}
+
+.s-container{
+    display: flex;
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.cart-ico{
+    position: absolute;
+    right: 0;
+    top: 1vh;
+}

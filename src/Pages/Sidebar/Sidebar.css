@@ -1,0 +1,13 @@
+.sidebar-container{
+    height: 90vh;
+    width: 14vw;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    align-content: center;
+    color: white;
+    row-gap: 20px;
+}

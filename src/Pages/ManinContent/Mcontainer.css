@@ -1,0 +1,119 @@
+.p-image {
+    height: 80px;
+    width: 80px;
+  }
+  li {
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  .data-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .des {
+    height: 25px;
+    width: 100px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid white;
+    letter-spacing: 1px;
+  }
+  .data-product {
+    height: 16rem;
+    width: 9rem;
+    background-color: rgba(14, 1, 5, 0.774);
+    margin: 5px 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    row-gap: 12px;
+    color: white;
+  }
+  
+  .addcart-anim {
+    height: 30px;
+    width: 35px;
+  }
+  .img-back {
+    height: 110px;
+    width: 110px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    box-sizing: border-box;
+    border: 2px solid white;
+  }
+  
+  .addcart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .cart-btn {
+    padding: 2px 10px;
+    border-radius: 4px;
+    border-inline-color: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-text-container {
+    overflow: hidden;
+  }
+  
+  .slide-text {
+    font-size: 24px;
+    font-family: "Arial", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  
+  .slide-text.left {
+    animation-name: slideInLeft;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  
+  .slide-text.right {
+    animation-name: slideInRight;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  

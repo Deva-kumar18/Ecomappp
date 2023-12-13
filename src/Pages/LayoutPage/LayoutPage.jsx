@@ -18,9 +18,6 @@ const LayoutPage = () => {
         <div className='navbar'>
             <Navbar/>
         </div>
-        <div className='sidebar'>
-            <Sidebar/>
-        </div>
         <div className='content'>
             <ContentPage/>
         </div>

@@ -50,6 +50,11 @@ ul{
        
         
     }
+    .products-image{
+        height: 50vh;
+        width: 40vw;
+        
+    }
     .data-product {
         height: 16rem;
         width: 9rem!important;

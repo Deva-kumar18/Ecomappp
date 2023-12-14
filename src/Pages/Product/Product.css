@@ -1,6 +1,7 @@
 .products-image{
-    height: 80vh;
-    width: 30vw;
+    height: 50vh;
+    width: auto;
+    
 }
 .image-name{
     display: flex;
